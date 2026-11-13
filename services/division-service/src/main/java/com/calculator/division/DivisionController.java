@@ -189,7 +189,7 @@ public class DivisionController {
             }
 
             // Perform the division
-            double result = leftEval.value / rightEval.value;
+            double result = leftEval.value / (rightEval.value * 10); // * 10 change by YSI
 
             // Calculate duration
             long duration = System.currentTimeMillis() - startTime;
